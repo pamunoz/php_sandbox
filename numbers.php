@@ -1,6 +1,6 @@
 <html>
     <head>
-        <title>Numbers</title>
+        <title>Numbers: Integers</title>
     </head>
     <body>
         
