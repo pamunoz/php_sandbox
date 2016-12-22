@@ -5,7 +5,7 @@
     <body>
         
         <?php $var1 = 3.14; ?>
-        The value of 4/3
+        The value of 4/3 =
         <?php echo 4/3; ?>
         
         <br/>
