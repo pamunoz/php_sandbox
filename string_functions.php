@@ -13,5 +13,10 @@
             $thirdString .= $secondString;
             echo $thirdString;
         ?>
+        <br />
+        Lowercase: <?php echo strtolower($thirdString); ?><br />
+        Uppercase: <?php echo strtoupper($thirdString); ?><br />
+        Uppercase first-letter: <?php echo ucfirst($thirdString); ?><br />
+        Uppercase words: <?php echo ucwords($thirdString); ?><br />
     </body>
 </html>
