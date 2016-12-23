@@ -25,6 +25,15 @@
             $bar = foo2($bar);
             echo $bar . "<br />";
         ?>
+        <br />
+        <?php 
+            // ====== Default Values ============
+            function paint($color="red") {
+                echo "The color of the room is {$color}.<br />";
+            }
+            paint();
+            paint("blue");
+        ?>
         
         
     </body>
