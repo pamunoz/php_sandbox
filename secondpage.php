@@ -9,6 +9,13 @@
             $name = $_GET['name'];
             echo "<strong>" . $id  . ": {$name}</strong>";
         ?>
+        <br />
+        <?php
+            $string = "somebody someone";
+            echo urldecode($string);
+            echo "<br />";
+            echo rawurlencode($string);
+        ?>
         
     </body>
 </html>
